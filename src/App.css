@@ -1,0 +1,75 @@
+/* Основной контейнер */
+.main-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Верхний блок - СТАРТ */
+.start-block {
+  height: 10%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Основной блок для лабиринта */
+.content-block {
+  position: relative;
+  flex: 1;
+  background-color: #e0e0e0;
+  overflow: hidden;
+}
+
+/* Квадраты */
+.square {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+}
+
+/* Изображение капибары */
+.capybara-image {
+  width: 30px;
+  height: auto;
+}
+
+/* Нижний блок - ФИНИШ */
+.finish-block {
+  height: 10%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Блок со стрелками */
+.controls {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+  border-radius: 50%; /* Круглая форма */
+  padding: 10px; /* Отступы внутри */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для глубины */
+}
+
+/* Горизонтальные стрелки */
+.horizontal-controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Иконки стрелок */
+.control-icon {
+  font-size: 36px;
+  cursor: pointer;
+  color: #333;
+  margin: 5px; /* Отступы между иконками */
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/capybara-journey/static/css/main.a87fdef6.css",
+    "main.js": "/capybara-journey/static/js/main.524b8004.js",
+    "static/js/453.7c5b9429.chunk.js": "/capybara-journey/static/js/453.7c5b9429.chunk.js",
+    "static/media/capybara.png": "/capybara-journey/static/media/capybara.6a7ee962040802610a92.png",
+    "index.html": "/capybara-journey/index.html",
+    "main.a87fdef6.css.map": "/capybara-journey/static/css/main.a87fdef6.css.map",
+    "main.524b8004.js.map": "/capybara-journey/static/js/main.524b8004.js.map",
+    "453.7c5b9429.chunk.js.map": "/capybara-journey/static/js/453.7c5b9429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a87fdef6.css",
+    "static/js/main.524b8004.js"
+  ]
+}
